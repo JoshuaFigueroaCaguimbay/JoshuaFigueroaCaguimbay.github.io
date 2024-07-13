@@ -1,0 +1,66 @@
+.hello {  
+  text-align: center; 
+
+}
+
+.website-page-size { 
+  width: 800px; 
+  height: 400px;  
+
+}   
+  
+.clipartme {  
+ 
+  display: inline;
+  width: 250px; 
+  height: 400px;        
+ float: right;
+ margin-right: 200px; 
+ 
+    
+
+} 
+.LIFE { 
+  padding-bottom: 10px; 
+  font-size: 50px;   
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-size: cover;
+  color: white;   
+
+}
+.heading2 {  
+  display: inline; 
+  font-size: 50px;   
+  text-align: left;  
+  margin-inline-end: 1300px; 
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;  
+} 
+.body1 {  
+   
+  font-size: 25px;   
+  text-align: left;  
+  margin: 30px; 
+  margin-right: 1250px; 
+  font-family: 'Times New Roman', Times, serif;
+  color: white;   
+}
+.heading3 {   
+    display: inline;
+    font-size: 50px;   
+    text-align: right;  
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+.heading {  
+  padding-bottom: 10px; 
+  font-size: 50px;   
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-size: cover;
+  color: white;
+} 
+.about-me { 
+   
+  padding-bottom: 250px;   
+
+}
