@@ -2,12 +2,42 @@
   text-align: center; 
 
 }
+ 
+nav {  
+   background-color: antiquewhite; 
+   padding-top: 10px; 
+   padding-bottom: 10px;
+} 
+ 
+nav a {    
+  text-shadow: 1px 1px 1px rgb(76, 0, 255);
+  padding-left: 25px; 
+  padding-right: 25px;
+  text-decoration: none;  
+  color:darkcyan; 
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+} 
+ 
+nav a:hover{ 
+   background-color: darkcyan; 
+   font-size: 20px; 
+   text-shadow: 2px 2px 2px rgb(0, 0, 0);
+
+} 
+  
+::-webkit-scrollbar-thumb{ 
+  background: white;
+
+}
 
 .website-page-size { 
   width: 800px; 
-  height: 400px;  
+  height: 400px;    
+  display: block;
+  margin: 0 auto;
 
-}   
+}    
+
   
 .clipartme {  
  
@@ -25,7 +55,8 @@
   font-size: 50px;   
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-size: cover;
-  color: white;   
+  color: white;    
+  text-align:  center;
 
 }
 .heading2 {  
