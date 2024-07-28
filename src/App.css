@@ -1,3 +1,31 @@
+@media screen and (max-width: 600px) { 
+  .clipartme {  
+    display: none;
+    width: 250px; 
+    height: 400px;        
+   float: none;
+   margin-right: 200px; 
+  }   
+  .body1 {  
+   
+    font-size: 25px;   
+    text-align: none;  
+    margin: 30px; 
+    margin-right: 1250px; 
+    font-family: 'Times New Roman', Times, serif;
+    color: white;   
+  }  
+  .heading2 {  
+    display: none; 
+    font-size: clamp(1px,20vw, 50px);   
+    text-align: none;  
+    margin-inline-end: none; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;  
+  } 
+}
+  
+    
 .hello {  
   text-align: center; 
 
@@ -31,24 +59,19 @@ nav a:hover{
 }
 
 .website-page-size { 
-  width: 800px; 
-  height: 400px;    
+  width: clamp(400px, 10vw, 800px); 
+  height: clamp(200px, 10vw, 400px);   
   display: block;
   margin: 0 auto;
 
 }    
 
-  
 .clipartme {  
- 
   display: inline;
   width: 250px; 
   height: 400px;        
  float: right;
  margin-right: 200px; 
- 
-    
-
 } 
 .LIFE { 
   padding-bottom: 10px; 
@@ -61,7 +84,7 @@ nav a:hover{
 }
 .heading2 {  
   display: inline; 
-  font-size: 50px;   
+  font-size: (10px, 10vw, 50px);   
   text-align: left;  
   margin-inline-end: 1300px; 
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -78,14 +101,14 @@ nav a:hover{
 }
 .heading3 {   
     display: inline;
-    font-size: 50px;   
+    font-size: clamp(5px, 10vw, 50px);   
     text-align: right;  
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
 }
 .heading {  
   padding-bottom: 10px; 
-  font-size: 50px;   
+  font-size: clamp(10px, 10vw, 50px);   
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-size: cover;
   color: white;
