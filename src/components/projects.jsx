@@ -5,7 +5,7 @@ function Projects(){
             
         <h1 className="LIFE">Projects</h1>
         <img className="website-page-size"src={websiteImg}></img> 
-        <h1 className="LIFE">Personal Website</h1> 
+        <h1 className="LIFE2">Personal Website</h1> 
 
         </div> 
     ); 

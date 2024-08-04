@@ -17,11 +17,11 @@
   }  
   .heading2 {  
     display: none; 
-    font-size: clamp(1px,20vw, 50px);   
+    font-size: clamp(1px,20vw, 70px);   
     text-align: none;  
     margin-inline-end: none; 
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: white;  
+    color: rgb(0, 234, 255); 
   } 
 }
   
@@ -47,7 +47,7 @@ nav a {
 } 
  
 nav a:hover{ 
-   background-color: darkcyan; 
+   background-color: rgb(0, 139, 139); 
    font-size: 20px; 
    text-shadow: 2px 2px 2px rgb(0, 0, 0);
 
@@ -58,7 +58,8 @@ nav a:hover{
 
 }
 
-.website-page-size { 
+.website-page-size {  
+  padding-top: 50px;
   width: clamp(400px, 10vw, 800px); 
   height: clamp(200px, 10vw, 400px);   
   display: block;
@@ -75,20 +76,30 @@ nav a:hover{
 } 
 .LIFE { 
   padding-bottom: 10px; 
+  font-size: 70px;   
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-size: cover;
+  color: darkcyan;    
+  text-align:  center; 
+
+}  
+ 
+.LIFE2 { 
+  padding-bottom: 10px; 
   font-size: 50px;   
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-size: cover;
-  color: white;    
-  text-align:  center;
-
+  color: rgb(0, 234, 255);    
+  text-align:  center; 
 }
+ 
 .heading2 {  
   display: inline; 
   font-size: (10px, 10vw, 50px);   
   text-align: left;  
-  margin-inline-end: 1300px; 
+  margin-inline-end: 1285px; 
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: white;  
+  color: rgb(0, 234, 255); 
 } 
 .body1 {  
    
@@ -98,6 +109,16 @@ nav a:hover{
   margin-right: 1250px; 
   font-family: 'Times New Roman', Times, serif;
   color: white;   
+} 
+.bodyam {  
+  text-align: center; 
+  margin-block-end: 80px; 
+  margin-block-start: 80px;
+  font-size: 25px;   
+  font-family: 'Times New Roman', Times, serif;
+  color: white;    
+  margin-inline-end: 400px; 
+  margin-inline-start: 400px;
 }
 .heading3 {   
     display: inline;
@@ -108,11 +129,20 @@ nav a:hover{
 }
 .heading {  
   padding-bottom: 10px; 
-  font-size: clamp(10px, 10vw, 50px);   
+  font-size: clamp(10px, 10vw, 40px);   
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-size: cover;
   color: white;
-} 
+}  
+ 
+.heading0 {  
+  padding-bottom: 10px; 
+  font-size: clamp(10px, 10vw, 50px);   
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-size: cover;
+  color: darkcyan;
+}  
+
 .about-me { 
    
   padding-bottom: 250px;   
